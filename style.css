@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+/* *{
+    transform: scale(2);
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.one_nav{
+    margin-left: 90px;
+}
+.two_nav{
+    display: flex;
+    margin-right: 90px;
+    width: 140px ;
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.nav_text{
+    font-size:15px;
+    font-weight: 800;
+  
+}
+
+.bg{
+    background-image: url(kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:437px;
+    width: 100%;
+  
+
+}
+
+.bg_text{
+    font-size: 70px;
+    color: white;
+    line-height: 90px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.bg_hash{
+    color:white;
+    font-size: 20px;
+    line-height: 2px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.book_title{
+margin-top: 110px;
+
+}
+span{
+
+    font-size: 25px;
+    font-weight: 800;
+    margin: 40px 80px 80px 100px;
+
+}
+
+.books{
+    width: 1160px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px; 
+}
+
+
+
+.Btext{
+line-height: 0px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.book_name{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.author{
+    color: grey;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.MA{
+    display: flex;
+   padding-top: 20px;
+   justify-content: space-between;
+   font-family:"Rubik";
+   width: 155px;
+  
+}
+
+.cost{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.add{display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(39, 146, 218);
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+.books-img{
+    margin-left: 3px;
+}
+
+.Games{
+    width: 1160px;
+    margin-left: 100px;
+     margin-top: 9px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+  .games-img{
+    margin-left: 3px;
+    /* border: 1px green solid;  */
+}
+
+.game_name{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.details{
+    color: grey;
+    font-weight: 700;
+}
+
+.GMA{
+    display: flex;
+   padding-top: 20px;
+   justify-content: space-between;
+   width: 250px;
+   font-family:"Rubik";
+}
+
+.Gcost{
+    font-weight: 700;
+    font-size: 17px;
+    font-family:"Rubik";
+}
+
+.Gadd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(39, 146, 218);
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+.things{
+    width: 1160px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px; 
+   
+}
+
+
+
+  .things-img{
+    margin-left: 3px;
+}
+
+.thing_name{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.details{
+    color: grey;
+    font-weight: 700;
+}
+
+.TMA{
+    display: flex;
+   padding-top: 20px;
+   justify-content: space-between;
+   width: 250px;
+   font-family:"Rubik";
+  
+}
+
+.Tcost{
+    font-weight: 700;
+    font-size: 17px;
+    font-family:"Rubik";
+}
+
+.Tadd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(39, 146, 218);
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+footer{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    margin-top: 200px;
+    outline: 0px;
+    margin-bottom: 0px;
+ 
+
+
+}
+.photo{
+    border-radius: 100%;
+}
+
+.end{
+    margin-left: 100px;
+}
+.writings{
+    margin-right: 100px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    margin-left: 120px;
+}
+h3{
+    font-size: 20px;
+}
+@media all and (max-width:600px){
+
+    .books{
+        display: block;
+       margin-right: 80px;
+        
+    }
+
+    .Games{
+        display: block;
+        margin-top: 0px;
+       
+        
+        
+    }
+
+    .things{
+        display: block;
+        margin-top: 0px;
+    }
+    
+    span{
+        font-size: 20px
+    }
+.two_nav{
+    margin-left: 10px;
+   
+}
+.one_nav{
+    margin-left: 10px;
+}
+
+.book_one{
+    margin-bottom: 30px;
+}
+.thing_one{
+    margin-bottom: 30px;
+}
+
+.game_one{
+    margin-bottom: 30px;
+}
+
+
+.nav_text{
+    width: 120px;
+
+
+}
+.bg_text{
+    font-size: 60px;
+}
+h3{
+    font-size: 15px;
+}
+.end{
+    margin-left: 10px;
+}
+
+h2{
+    margin-right: 20px;
+}
+
+footer{
+    margin-bottom: 90px;
+}
+}
